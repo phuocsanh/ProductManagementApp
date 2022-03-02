@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="s27dp">27sp</dimen>
+    <dimen name="s20sp">20sp</dimen>
+    <dimen name="s18sp">18sp</dimen>
+    <dimen name="s15dp">15dp</dimen>
+    <dimen name="taobong">1dp</dimen>
+    <dimen name="s15sp">15dp</dimen>
+    <dimen name="s40dp">40dp</dimen>
+    <dimen name="s16dp">16dp</dimen>
+</resources>

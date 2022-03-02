@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/drawable/button.xml" value="0.24375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/drawable/edit_note.xml" value="0.24375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/drawable/event_available.xml" value="0.24375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/drawable/gradient_1.xml" value="0.24375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/drawable/ic_autorenew.xml" value="0.24375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/drawable/ic_back.xml" value="0.24375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/drawable/ic_person.xml" value="0.24375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/drawable/radius.xml" value="0.24375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/drawable/recylerview_radius.xml" value="0.24375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/drawable/searchview_custom.xml" value="0.24375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/activity_chi_tiet_kiem_kho.xml" value="0.264" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/activity_chi_tiet_lsgdactivity.xml" value="0.264" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/activity_chi_tiet_nhap_hang.xml" value="0.264" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/activity_chon_hang_kiem.xml" value="0.264" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/activity_hang_hoa_update.xml" value="0.20153985507246377" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/activity_insert_hang_hoa.xml" value="0.20652173913043478" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/activity_khachhang.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/activity_kiem_kho.xml" value="0.264" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/activity_main.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/activity_nhap_hang.xml" value="0.264" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/activity_xuat_hang.xml" value="0.20652173913043478" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/dialog_kiemkho.xml" value="0.264" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/dialog_sua_nhanvien.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/dialog_them_khachhang.xml" value="0.19157608695652173" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/dialog_them_nhanvien.xml" value="0.19610507246376813" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/fragment_doanhthu.xml" value="0.2" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/fragment_doimatkhau.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/fragment_hanghoa.xml" value="0.19610507246376813" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/fragment_khachhang.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/fragment_kiemkho.xml" value="0.21105072463768115" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/fragment_lsdg.xml" value="0.21105072463768115" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/fragment_lsgd.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/fragment_nhanvien.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/fragment_nhaphang.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/fragment_thongke.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/fragment_top.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/fragment_xuathang.xml" value="0.20652173913043478" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/header_drawer_layout.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/item_recyclerview_addkiemkho.xml" value="0.264" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/item_recyclerview_addnhaphang.xml" value="0.264" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/item_recyclerview_chitiet_lsgd.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/item_recyclerview_hanghoa.xml" value="0.20153985507246377" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/item_recyclerview_kiemkho.xml" value="0.2" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/item_recyclerview_lsgd.xml" value="0.20652173913043478" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/item_recyclerview_nhanvien.xml" value="0.19157608695652173" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/item_recyclerview_nhaphang.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/item_recyclerview_top.xml" value="0.19610507246376813" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/item_recyclerview_xuathang.xml" value="0.19610507246376813" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/item_recylerview_kiemkho.xml" value="0.4" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/layout/item_spinner_nhomhang.xml" value="0.19610507246376813" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/menu/drawer_view.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/menu/menu_add.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/menu/menu_save.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/menu/menu_search_add.xml" value="0.2234375" />
+        <entry key="..\:/APK/DA1/asm/app/src/main/res/xml/searchable.xml" value="0.20153985507246377" />
+        <entry key="..\:/Duan1/asm_final_new/app/src/main/res/layout/activity_khachhang.xml" value="0.1" />
+        <entry key="..\:/Duan1/asm_final_new/app/src/main/res/layout/activity_login.xml" value="0.10326086956521739" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEDED"
+
+    tools:context=".UpdateHangHoaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_chinhSuaHangHoa"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#FFFFFFFF"
+            android:fitsSystemWindows="true">
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/imageView_hinhHangHoa2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_add_photo" />
+
+
+        <EditText
+            android:id="@+id/textView_tenHangHoa2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/s20sp"
+            android:paddingTop="@dimen/s15dp"
+            android:paddingRight="@dimen/s20sp"
+            android:paddingBottom="@dimen/s15dp"
+            android:hint="Tên hàng hóa"
+            android:textColor="@color/black"
+            android:textSize="@dimen/s27dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@android:color/black"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/s20sp"
+            android:paddingTop="7dp"
+            android:paddingRight="@dimen/s20sp"
+            android:paddingBottom="7dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Nhóm hàng"
+                android:textSize="@dimen/s18sp" />
+
+            <Spinner
+                android:id="@+id/spinner_nhomHang2"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/imageButton_themLoaiHang"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/ic_add" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@android:color/black"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp" />
+
+        <LinearLayout
+            android:id="@+id/linear_dinhMuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/s20sp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Định mức tồn"
+                android:textSize="@dimen/s18sp" />
+
+            <TextView
+                android:id="@+id/textView_dinhMucTonMin2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/s18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="->"
+                android:textColor="@color/black"
+                android:textSize="@dimen/s18sp" />
+
+            <TextView
+                android:id="@+id/textView_dinhMucTonMax2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50"
+                android:textColor="@color/black"
+                android:textSize="@dimen/s18sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@android:color/black"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/s20sp"
+            android:paddingTop="@dimen/s15dp"
+            android:paddingRight="@dimen/s20sp"
+            android:paddingBottom="@dimen/s15dp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Giá bán"
+                android:textSize="@dimen/s18sp" />
+
+            <EditText
+                android:id="@+id/textView_giaBan2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/s18sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@android:color/black"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/s20sp"
+            android:paddingTop="@dimen/s15dp"
+            android:paddingRight="@dimen/s20sp"
+            android:paddingBottom="@dimen/s15dp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Giá gốc"
+                android:textSize="@dimen/s18sp" />
+
+            <EditText
+                android:id="@+id/textView_giaGoc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/s18sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@android:color/black"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/s20sp"
+            android:paddingTop="@dimen/s15dp"
+            android:paddingRight="@dimen/s20sp"
+            android:paddingBottom="@dimen/s15dp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Tồn kho"
+                android:textSize="@dimen/s18sp" />
+
+            <EditText
+                android:id="@+id/textView_tonKho2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/s18sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@android:color/black"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@android:color/black"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/s20sp"
+            android:paddingTop="@dimen/s15dp"
+            android:paddingRight="@dimen/s20sp"
+            android:paddingBottom="@dimen/s15dp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Vị trí"
+                android:textSize="@dimen/s18sp" />
+
+            <EditText
+                android:id="@+id/textView_viTriHang2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/s18sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@android:color/black"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/s20sp"
+            android:paddingTop="@dimen/s15dp"
+            android:paddingBottom="@dimen/s15dp"
+            android:text="Ghi chú"
+            android:textSize="@dimen/s18sp" />
+
+        <EditText
+            android:id="@+id/textView_ghiChu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="Mô tả"
+            android:paddingLeft="@dimen/s20sp"
+            android:paddingTop="@dimen/s15dp"
+            android:paddingRight="@dimen/s20sp"
+            android:paddingBottom="@dimen/s15dp" />
+    </LinearLayout>
+</ScrollView>

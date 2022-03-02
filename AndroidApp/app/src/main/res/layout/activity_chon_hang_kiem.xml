@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#EFEEEE"
+    android:orientation="vertical"
+    tools:context=".KiemKhoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_chonhangkiem13"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#fff"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/linear_chonhangkiem13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:background="@drawable/radius"
+            android:orientation="horizontal">
+
+          <!--  <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/search" />-->
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/searchview13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:queryHint="Chọn hàng kiểm"
+                app:defaultQueryHint="Chọn hàng kiểm"
+                app:iconifiedByDefault="false"
+                app:queryBackground="@null"
+                app:submitBackground="@null"
+               />
+
+            <!--<EditText
+                android:id="@+id/edittext_chonHangKiem13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:hint="Chọn hàng kiểm"
+                android:background="@android:color/transparent"
+                />-->
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_hangHoa13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/s20sp"
+
+
+        />
+<!--    android:background="@drawable/recylerview_radius"-->
+
+</LinearLayout>

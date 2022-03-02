@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_1_xuatHang"
+            android:icon="@drawable/view_in_ar"
+            android:title="Xuất hàng" />
+        <!--<item
+            android:id="@+id/nav_2_hoaDonTam"
+            android:icon="@drawable/edit_note"
+            android:title="Hóa đơn tạm" />-->
+        <item
+            android:id="@+id/nav_3_lichSuDonHang"
+            android:icon="@drawable/history"
+            android:title="Lịch sử đơn hàng" />
+     <!--   <item
+            android:id="@+id/nav_4_traHang"
+            android:icon="@drawable/trahang"
+            android:title="Trả hàng" />-->
+    </group>
+
+    <group android:id="@+id/gr2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_5_tongQuan"
+            android:icon="@drawable/insights"
+            android:title="Thống kê" />
+        <item
+            android:id="@+id/nav_6_hangHoa"
+            android:icon="@drawable/widgets"
+            android:title="Hàng hóa" />
+        <item
+            android:id="@+id/nav_14_kiemKho"
+            android:icon="@drawable/ic_check_circle"
+            android:title="Kiểm kho" />
+        <item
+            android:id="@+id/nav_7_nhapHang"
+            android:icon="@drawable/ic_assignment_returned"
+            android:title="Nhập hàng" />
+    </group>
+
+    <group  android:id="@+id/gr3" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_8_khachHang"
+            android:icon="@drawable/people"
+            android:title="Khách hàng" />
+        <item
+            android:id="@+id/nav_9_nhanVien"
+            android:icon="@drawable/recent_actors"
+            android:title="Nhân viên" />
+    </group>
+
+    <group  android:id="@+id/gr4" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_11_goiDT"
+            android:icon="@drawable/phone"
+            android:title="Gọi 1900 6522" />
+        <item
+            android:id="@+id/nav_12_doiMatKhau"
+            android:icon="@drawable/priority"
+            android:title="Đổi mật khẩu" />
+        <item
+            android:id="@+id/nav_13_dangXuat"
+            android:icon="@drawable/logout"
+            android:title="Đăng xuất" />
+    </group>
+
+</menu>

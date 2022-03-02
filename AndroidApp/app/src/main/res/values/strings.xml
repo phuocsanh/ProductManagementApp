@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="Login">Login</string>
+    <string name="UserName">UserName</string>
+    <string name="PassWords">Passwords</string>
+    <string name="search_hint">search</string>
+    <string-array name="array_chucvu">
+        <item>Admin</item>
+        <item>Nhân viên</item>
+    </string-array>
+    <string-array name="array_thang">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_appqlbh"
+        android:label="Quản Lý Bán Hàng"
+        android:roundIcon="@mipmap/ic_appqlbh"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ChiTietLSGDActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChiTietNhapHangActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NhapHangActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChiTietKiemKhoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChonHangkiemActivity"
+            android:exported="true" />
+        <activity
+            android:name=".KiemKhoActivity"
+            android:exported="true" />
+        <activity android:name=".intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LSGDActivity" />
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".KhachHangActivity" />
+        <activity android:name=".XuatHangActivity" />
+        <activity android:name=".InsertHangHoaActivity" />
+        <activity android:name=".UpdateHangHoaActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

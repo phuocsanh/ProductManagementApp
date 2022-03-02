@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_maHD5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="HD0023"
+        android:textColor="@color/xanhnen"
+        android:textSize="@dimen/s20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_tenKH5"
+            android:layout_width="207dp"
+            android:layout_height="27dp"
+            android:layout_weight="1"
+            android:text="anh Kiet"
+            android:textSize="@dimen/s18sp" />
+
+        <TextView
+            android:id="@+id/textView_tongTienHD5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="500000"
+            android:paddingRight="10dp"
+            android:textColor="@color/xanhnen"
+            android:textSize="@dimen/s20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView_thoiGianTao5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black" />
+</LinearLayout>
